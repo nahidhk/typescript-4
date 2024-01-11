@@ -1,0 +1,22 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "install-dep": "npm i --no-bin-links",
+    "clean": "rm dist/bundle.js",
+    "build": "webpack",
+    "build-prod": "webpack --mode production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4",
+    "typescript": "5.2.2",
+    "ts-loader": "9.4.4"
+  }
+}
